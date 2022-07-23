@@ -1,0 +1,54 @@
+#Question1
+Name = input("Please enter your name : ")
+Surname = input("Please enter your last name : ")
+print(Surname, Name)
+
+
+#Question2
+n=5
+n+n*11+n*111
+
+
+#Question3
+N = int(input(" Please enter a number : "))
+if N%2==0 :
+    print(N ,"is even")
+else :
+    print(N ,"is odd")
+    
+    
+#Question4
+for i in range(2000,3200):
+    if i%7==0 and i%5!=0:
+        print(i)
+
+
+#Question5
+N = 1
+i = int()
+for i in range(1,9):
+ N = N*i
+ print(N)
+ 
+ 
+#Question6
+my_string = str(input("Enter your text : "))
+for i in range(0,len(my_string)) :
+  if i%2==0 :
+   print(my_string[i])
+  else :
+    print("")
+    
+    
+#Question7
+X = float(input("Enter the price here : "))
+new_price = float()
+if X >=500 :
+    new_price = X - (X*50)/100
+    print("The new price is: ", new_price)
+elif 200 <= X < 500 :
+    new_price = X - (X*30)/100
+    print("The new price is: ", new_price)
+elif X < 200 :
+    new_price = X - (X*10)/100
+    print("The new price is: ", new_price)
